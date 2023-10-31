@@ -2,9 +2,13 @@
 
 $$ \frac{f(x + dx) - f(x)}{dx} = \frac{df}{dx} = f\prime(x) $$
 
+### sum rule
+
 $$ \frac{d(f(x) + g(x))}{dx} = \frac{f(x + dx) + g(x + dx) - f(x) -g(x)}{dx} = \frac{f(x + dx) - f(x)}{dx} + \frac{g(x + dx) - g(x)}{dx} = \frac{df}{dx} + \frac{dg}{dx} $$
 
 $$ \frac{d(f(x) + g(x))}{dx} = \frac{df}{dx} + \frac{dg}{dx} $$
+
+### product rule
 
 $$ f(x + dx) = f(x) + df $$
 
@@ -15,6 +19,8 @@ $$ \frac{dfdg}{dx} \approx 0 $$
 $$ \frac{d(f(x)g(x))}{dx} = f(x)\frac{dg}{dx} + \frac{df}{dx}g(x) $$
 
 $$ (f(x)g(x))\prime = f(x)g\prime(x) + f\prime(x)g(x) $$
+
+### chain rule
 
 $$ \frac{f(x + \Delta x) - f(x)}{\Delta x} = \frac{df}{dx} $$
 
