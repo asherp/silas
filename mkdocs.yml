@@ -1,5 +1,8 @@
 site_name: Silas Maths
 
+repo_name: Silas Maths
+repo_url: https://github.com/asherp/silas
+
 nav:
   - Home: README.md
   - Calculus: derivatives.md
