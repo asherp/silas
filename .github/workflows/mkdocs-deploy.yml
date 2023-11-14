@@ -3,7 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - main  # Set this to the branch you want to trigger the deployment
+      - main
 
 jobs:
   deploy:
@@ -15,7 +15,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Set up the python version
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
@@ -23,7 +23,10 @@ jobs:
         pip install -r requirements.txt
 
     - name: Build and deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
       run: |
         mkdocs build --verbose
         mkdocs gh-deploy --force
+
 
