@@ -7,6 +7,7 @@ nav:
   - Home: README.md
   - Calculus: derivatives.md
   - Complex: complex.md
+  - Hyperbolic: hyperbolic.md
 
 theme:
   name: material
@@ -42,6 +43,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+  - markdown.extensions.extra
+  - markdown.extensions.codehilite
+  - markdown.extensions.tables
+  - markdown.extensions.toc:
+      permalink: true
 
 extra_javascript:
   - javascripts/mathjax.js
