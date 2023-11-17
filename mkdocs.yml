@@ -6,6 +6,7 @@ repo_url: https://github.com/asherp/silas
 nav:
   - Home: README.md
   - Calculus: derivatives.md
+  - Calculus II: calculus_2.md
   - Complex: complex.md
   - Hyperbolic: hyperbolic.md
 
