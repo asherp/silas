@@ -18,6 +18,8 @@ $$ \sum\limits_{n=0}^{\infty}C_n n x^{n - 1} = e^x = \sum\limits_{n=0}^{\infty}C
 
 $$ \sum\limits_{n=0}^{\infty}C_n n x^{n - 1} = \sum\limits_{n=-1}^{\infty}C_{n + 1} (n + 1) x^n = c_0 0 x^{-1} + \sum\limits_{n=0}^{\infty}C_{n + 1} (n + 1) x^n = \sum\limits_{n=0}^{\infty}C_n x^n $$
 
+### More about e to the x
+
 $$ C_{n + 1} (n + 1) = C_n $$
 
 $$ C_{n + 1} = \frac{C_n}{n + 1} $$
@@ -34,4 +36,48 @@ $$ e^x = \sum\limits_{n=0}^{\infty}\frac{x^n}{n!} $$
 
 $$ e = \sum\limits_{n=0}^{\infty}\frac{1}{n!} $$
 
+$$ \sum\limits_{n=0}^{\infty}C_n x^n = e^x $$
+
+$$ \sum\limits_{n=0}^{\infty}C_n n x^{n - 1} = e^x = \sum\limits_{n=0}^{\infty}C_n x^n $$
+
+$$ \sum\limits_{n=0}^{\infty}C_n n x^{n - 1} = \sum\limits_{n=-1}^{\infty}C_{n + 1} (n + 1) x^n = c_0 0 x^{-1} + \sum\limits_{n=0}^{\infty}C_{n + 1} (n + 1) x^n = \sum\limits_{n=0}^{\infty}C_n x^n $$
+
+$$ C_{n + 1} (n + 1) = C_n $$
+
+$$ C_{n + 1} = \frac{C_n}{n + 1} $$
+
+$$ C_n = \frac{C_{n - 1}}{n} $$
+
+$$ e^0 = 1 $$
+
+$$ C_0 = 1 $$
+
+$$ C_n = \frac{1}{n!} $$
+
+$$ e^x = \sum\limits_{n=0}^{\infty}\frac{x^n}{n!} $$
+
+### quoteint rule
+
 $$ (\frac{f}{g})\prime = ? $$
+
+$$ \frac{f(x)}{g(x)} = h(x) $$
+
+$$ g(x) h(x) = f(x) $$
+
+$$ (g(x) h(x))\prime = f\prime (x) $$
+
+$$ g\prime (x) h(x) + g(x) h\prime (x) = f\prime (x) $$
+
+$$ g(x) h\prime (x) = f\prime (x) - g\prime (x) h(x) $$
+
+$$ g(x) h\prime (x) = f\prime (x) - g\prime (x) \frac{f(x)}{g(x)} $$
+
+$$ g(x) h\prime (x) = f\prime (x) - \frac{f(x) g\prime(x)}{g(x)} $$
+
+$$ g(x) h\prime (x) = \frac{f\prime (x) g(x)}{g(x)} - \frac{f(x) g\prime (x)}{g(x)} $$
+
+$$ g(x) h\prime (x) = \frac{f\prime (x) g(x) - f(x) g\prime (x)}{g(x)} $$
+
+$$ h\prime (x) = \frac{f\prime (x) g(x) - f(x) g\prime (x)}{g^2(x)} $$
+
+$$ (\frac{f}{g})\prime = \frac{f\prime g - f g\prime}{g^2} $$
