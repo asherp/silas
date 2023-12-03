@@ -9,6 +9,7 @@ nav:
   - Calculus II: calculus_2.md
   - Complex: complex.md
   - Hyperbolic: hyperbolic.md
+  - Trigonometry: trigonometry.md
 
 theme:
   name: material
@@ -33,12 +34,12 @@ markdown_extensions:
   - admonition
   - markdown_include.include:
       base_path: docs
-  # - mdx_math:
-  #     enable_dollar_delimiter: True 
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+  - mdx_math:
+      enable_dollar_delimiter: True 
+  # - pymdownx.highlight:
+  #     anchor_linenums: true
+  #     line_spans: __span
+  #     pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
